@@ -1,0 +1,245 @@
+@media (max-width: 768px) {
+    main {
+        width: 95%; /* Lebar lebih besar untuk tablet */
+        margin: 1rem auto; /* Margin yang lebih kecil */
+    }
+
+    .notes {
+        max-width: 100%; /* Lebar maksimum 100% */
+        padding: 15px; /* Padding yang lebih kecil */
+    }
+
+    #notes-form input[type="text"],
+    #notes-form input[type="date"],
+    #notes-form textarea {
+        width: 100%; /* Lebar penuh untuk input */
+    }
+
+    .notes button {
+        width: 100%; /* Tombol lebar penuh */
+        font-size: 18px; /* Ukuran font lebih besar */
+    }
+
+    .notes-list {
+        padding: 15px; /* Padding yang lebih kecil */
+    }
+
+    .notes-list li {
+        padding: 8px; /* Padding yang lebih kecil untuk item catatan */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 24px; /* Ukuran font header lebih kecil */
+    }
+
+    .notes h2 {
+        font-size: 20px; /* Ukuran font judul catatan lebih kecil */
+    }
+
+    #notes-form label {
+        font-size: 14px; /* Ukuran font label lebih kecil */
+    }
+
+    #notes-form input[type="text"],
+    #notes-form input[type="date"],
+    #notes-form textarea {
+        font-size: 14px; /* Ukuran font input lebih kecil */
+    }
+
+    .notes button {
+        font-size: 16px; /* Ukuran font tombol lebih kecil */
+    }
+
+    .notes-list h2 {
+        font-size: 18px; /* Ukuran font judul daftar catatan lebih kecil */
+    }
+
+    .notes-list li {
+        font-size: 14px; /* Ukuran font item catatan lebih kecil */
+    }
+}
+
+body {
+    background-color: #FFFDEC;
+    margin: 0;
+}
+
+header {
+    padding: 1rem 0;    
+    background-color: #86A788;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.notes {
+    max-width: 600px; /* Membatasi lebar maksimum */
+    margin: 20px auto; /* Centering form */
+    padding: 20px; /* Ruang di dalam form */
+    background-color: #fff; /* Latar belakang putih */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.notes h2 {
+    text-align: center;
+}
+
+#notes-form {
+    margin: auto 30px;
+    padding-left: 30px;
+}
+
+#notes-form label {
+    display: block; /* Membuat label menjadi block */
+    margin-bottom: 8px; /* Jarak bawah untuk label */
+    font-weight: bold; /* Membuat teks label lebih tebal */
+}
+
+#notes-form input[type="text"],
+#notes-form input[type="date"] {
+    width: 90%; /* Lebar penuh */
+    padding: 10px; /* Ruang dalam */
+    margin-bottom: 15px; /* Jarak bawah untuk input */
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 4px; /* Sudut membulat */
+    font-size: 16px; /* Ukuran font */
+}
+
+#notes-form textarea {
+    width: 90%; /* Full width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    height: 100px; /* Set a specific height */
+    resize: vertical; /* Allow vertical resizing */
+}
+.notes button {
+    background-color: #86A788; /* Match header color */
+    color: #fff; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.notes button:hover {
+    background-color: #748B6D; /* Darker shade on hover */
+}
+
+.notes-list {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Warna latar belakang yang berbeda */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.notes-list h2 {
+    text-align: center;
+}
+
+.notes-list ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0; /* Menghilangkan padding */
+}
+
+.notes-list p{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.notes-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Garis pemisah antar catatan */
+}
+
+.notes-list button {
+    margin-left: 10px; /* Jarak antara tombol */
+    padding: 5px 10px; /* Padding untuk tombol */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut membulat */
+    cursor: pointer; /* Pointer cursor pada hover */
+}
+
+.notes-list button:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat hover */
+    color: black;
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Warna hijau untuk tombol Edit */
+    color: white; /* Teks berwarna putih */
+    padding: 5px 10px; /* Padding untuk tombol */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut membulat */
+    cursor: pointer; /* Pointer cursor pada hover */
+    font-size: 16px; /* Ukuran font */
+}
+
+.edit-button:hover {
+    background-color: #45a049; /* Warna lebih gelap saat hover */
+}
+
+.delete-button {
+    background-color: #f44336; /* Warna merah untuk tombol Hapus */
+    color: white; /* Teks berwarna putih */
+    padding: 5px 10px; /* Padding untuk tombol */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut membulat */
+    cursor: pointer; /* Pointer cursor pada hover */
+    font-size: 16px; /* Ukuran font */
+}
+
+.delete-button:hover {
+    background-color: #e53935; /* Warna lebih gelap saat hover */
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+.slide-out {
+    transition: transform 0.5s ease-in, opacity 1s ease-in;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.nunito-regular {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.paytone-one-regular {
+    font-family: "Paytone One", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
