@@ -1,4 +1,4 @@
-let currentEditNote = null; // Menyimpan catatan yang sedang diedit
+let currentEditNote = null; 
 
 document.getElementById('notes-form').addEventListener('submit', function(event) {
 event.preventDefault(); 
