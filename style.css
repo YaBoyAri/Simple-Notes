@@ -183,63 +183,63 @@ main {
 
 @media (max-width: 768px) {
     main {
-        width: 95%; /* Lebar lebih besar untuk tablet */
-        margin: 1rem auto; /* Margin yang lebih kecil */
+        width: 95%; 
+        margin: 1rem auto; 
     }
 
     .notes {
-        max-width: 100%; /* Lebar maksimum 100% */
-        padding: 15px; /* Padding yang lebih kecil */
+        max-width: 100%; 
+        padding: 15px; 
     }
 
     #notes-form input[type="text"],
     #notes-form input[type="date"],
     #notes-form textarea {
-        width: 100%; /* Lebar penuh untuk input */
+        width: 100%; 
     }
 
     .notes button {
-        width: 100%; /* Tombol lebar penuh */
-        font-size: 18px; /* Ukuran font lebih besar */
+        width: 100%; 
+        font-size: 18px;
     }
 
     .notes-list {
-        padding: 15px; /* Padding yang lebih kecil */
+        padding: 15px;
     }
 
     .notes-list li {
-        padding: 8px; /* Padding yang lebih kecil untuk item catatan */
+        padding: 8px; 
     }
 }
 
 @media (max-width: 480px) {
     header {
-        font-size: 24px; /* Ukuran font header lebih kecil */
-    }
+        font-size: 24px; 
 
     .notes h2 {
-        font-size: 20px; /* Ukuran font judul catatan lebih kecil */
+        font-size: 20px; 
     }
 
     #notes-form label {
-        font-size: 14px; /* Ukuran font label lebih kecil */
+        font-size: 14px; 
     }
 
     #notes-form input[type="text"],
     #notes-form input[type="date"],
     #notes-form textarea {
-        font-size: 14px; /* Ukuran font input lebih kecil */
+        font-size: 14px; 
     }
 
     .notes button {
-        font-size: 16px; /* Ukuran font tombol lebih kecil */
+        font-size: 16px; 
     }
 
     .notes-list h2 {
-        font-size: 18px; /* Ukuran font judul daftar catatan lebih kecil */
+        font-size: 18px;
     }
 
     .notes-list li {
-        font-size: 14px; /* Ukuran font item catatan lebih kecil */
+        font-size: 14px; 
     }
+  }
 }
