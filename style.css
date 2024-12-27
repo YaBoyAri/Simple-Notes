@@ -1,66 +1,3 @@
-@media (max-width: 768px) {
-    main {
-        width: 95%; /* Lebar lebih besar untuk tablet */
-        margin: 1rem auto; /* Margin yang lebih kecil */
-    }
-
-    .notes {
-        max-width: 100%; /* Lebar maksimum 100% */
-        padding: 15px; /* Padding yang lebih kecil */
-    }
-
-    #notes-form input[type="text"],
-    #notes-form input[type="date"],
-    #notes-form textarea {
-        width: 100%; /* Lebar penuh untuk input */
-    }
-
-    .notes button {
-        width: 100%; /* Tombol lebar penuh */
-        font-size: 18px; /* Ukuran font lebih besar */
-    }
-
-    .notes-list {
-        padding: 15px; /* Padding yang lebih kecil */
-    }
-
-    .notes-list li {
-        padding: 8px; /* Padding yang lebih kecil untuk item catatan */
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        font-size: 24px; /* Ukuran font header lebih kecil */
-    }
-
-    .notes h2 {
-        font-size: 20px; /* Ukuran font judul catatan lebih kecil */
-    }
-
-    #notes-form label {
-        font-size: 14px; /* Ukuran font label lebih kecil */
-    }
-
-    #notes-form input[type="text"],
-    #notes-form input[type="date"],
-    #notes-form textarea {
-        font-size: 14px; /* Ukuran font input lebih kecil */
-    }
-
-    .notes button {
-        font-size: 16px; /* Ukuran font tombol lebih kecil */
-    }
-
-    .notes-list h2 {
-        font-size: 18px; /* Ukuran font judul daftar catatan lebih kecil */
-    }
-
-    .notes-list li {
-        font-size: 14px; /* Ukuran font item catatan lebih kecil */
-    }
-}
-
 body {
     background-color: #FFFDEC;
     margin: 0;
@@ -242,4 +179,67 @@ main {
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 95%; /* Lebar lebih besar untuk tablet */
+        margin: 1rem auto; /* Margin yang lebih kecil */
+    }
+
+    .notes {
+        max-width: 100%; /* Lebar maksimum 100% */
+        padding: 15px; /* Padding yang lebih kecil */
+    }
+
+    #notes-form input[type="text"],
+    #notes-form input[type="date"],
+    #notes-form textarea {
+        width: 100%; /* Lebar penuh untuk input */
+    }
+
+    .notes button {
+        width: 100%; /* Tombol lebar penuh */
+        font-size: 18px; /* Ukuran font lebih besar */
+    }
+
+    .notes-list {
+        padding: 15px; /* Padding yang lebih kecil */
+    }
+
+    .notes-list li {
+        padding: 8px; /* Padding yang lebih kecil untuk item catatan */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 24px; /* Ukuran font header lebih kecil */
+    }
+
+    .notes h2 {
+        font-size: 20px; /* Ukuran font judul catatan lebih kecil */
+    }
+
+    #notes-form label {
+        font-size: 14px; /* Ukuran font label lebih kecil */
+    }
+
+    #notes-form input[type="text"],
+    #notes-form input[type="date"],
+    #notes-form textarea {
+        font-size: 14px; /* Ukuran font input lebih kecil */
+    }
+
+    .notes button {
+        font-size: 16px; /* Ukuran font tombol lebih kecil */
+    }
+
+    .notes-list h2 {
+        font-size: 18px; /* Ukuran font judul daftar catatan lebih kecil */
+    }
+
+    .notes-list li {
+        font-size: 14px; /* Ukuran font item catatan lebih kecil */
+    }
 }
